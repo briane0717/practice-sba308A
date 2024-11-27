@@ -1,0 +1,38 @@
+/* General body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Styles for the player list container */
+.player-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Styles for each player's box */
+.player {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Adding a hover effect */
+.player:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
